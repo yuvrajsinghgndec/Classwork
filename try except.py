@@ -1,0 +1,10 @@
+#a=10
+#print(a)
+#b=a/0
+#print('hello')
+try:
+    a=10
+    print(a)
+    print(a/0)
+except:
+    print('hello')
